@@ -35,7 +35,7 @@ function App() {
                   <div className='nav-link'>Features</div>
                   <div className='nav-link'>Pricing</div>
                   <div className='nav-link'>Contact</div>
-                  <Button className='nav-link'>Login</Button>
+                  <Button variant='info' className='nav-link'>Login</Button>
                 </Nav>
                 </Navbar>
               <Navbar className={`mobile ${showMenu ? 'active' : ''}`}>
