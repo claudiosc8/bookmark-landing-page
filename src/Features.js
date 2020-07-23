@@ -12,7 +12,7 @@ function Features({data}) {
 		  	<Row className='center'>
 			    <Col md={8}>
 				    <div className='tab-keys-wrapper'>
-				    	{data && data.map((item, index) => <Col aria-label={`features-tabs-${item.key}`} md={4} key={index} className={`tab-key${key === item.key ? ' active' : ''}`} onClick={() => setKey(item.key)}>{item.label}</Col>)}
+				    	{data && data.map((item, index) => <Col id={`features-tabs-${item.key}`} md={4} key={index} className={`tab-key${key === item.key ? ' active' : ''}`} onClick={() => setKey(item.key)}>{item.label}</Col>)}
 				    </div>
 			    </Col>
     		</Row>
