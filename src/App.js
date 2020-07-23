@@ -29,7 +29,7 @@ function App() {
             <Col>
             <Navbar expand="md">
               <div className={`navbar-brand ${showMenu ? 'white' : ''}`}><Logo /></div>
-              <Navbar.Toggle className={`${showMenu ? 'active' : ''}`} aria-controls="basic-navbar-nav" onClick={() => setShowMenu(e => !e)}/>
+              <Navbar.Toggle className={`${showMenu ? 'active' : ''}`} onClick={() => setShowMenu(e => !e)}/>
               <Navbar className='ml-auto'>
                 <Nav className="align-center">
                   <div className='nav-link'>Features</div>
