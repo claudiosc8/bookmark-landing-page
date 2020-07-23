@@ -1,5 +1,7 @@
 # Frontend Mentor - Bookmark landing page
 
+**Check the deployed app [here](https://bookmark-landing-page-nine.vercel.app)!**
+
 ![Design preview for the Bookmark landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
