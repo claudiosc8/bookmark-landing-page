@@ -12,7 +12,7 @@ function Features({data}) {
 		  	<Row className='center'>
 			    <Col md={8}>
 				    <div className='tab-keys-wrapper'>
-				    	{data && data.map((item, index) => <Col id={`features-tabs-${item.key}`} md={4} key={index} className={`tab-key${key === item.key ? ' active' : ''}`} onClick={() => setKey(item.key)}>{item.label}</Col>)}
+				    	{data && data.map((item, index) => <Col id={`features-tabs-tab-${item.key}`} md={4} key={index} className={`tab-key${key === item.key ? ' active' : ''}`} onClick={() => setKey(item.key)}>{item.label}</Col>)}
 				    </div>
 			    </Col>
     		</Row>
@@ -21,7 +21,7 @@ function Features({data}) {
 		      
 		      {data && data.map((item, index) => {
 		      	return (
-		      		<Tab.Pane aria-labelledby={`features-tabs-${item.key}`} eventKey={item.key} key={index}>
+		      		<Tab.Pane eventKey={item.key} key={index}>
 			         <Row className='align-center tab-row'>
 				        <Col md={7} className={`bg-detail left image j-${item.align}`}>
 			             	<img src={item.image} alt={item.title} />
