@@ -2,6 +2,8 @@
 
 **Check the deployed app [here](https://bookmark-landing-page-nine.vercel.app)!**
 
+**Check the report on Frontend Mentor [here](https://www.frontendmentor.io/solutions/bookmark-landing-page-using-react-and-bootstrap-TW0vWuONP)**
+
 ![Design preview for the Bookmark landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
